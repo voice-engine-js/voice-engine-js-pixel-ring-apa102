@@ -1,0 +1,29 @@
+{
+  "name": "@voice-engine/pixel-ring-apa102",
+  "version": "0.0.0",
+  "description": "Voice Engine JS library to control APA102 pixel rings",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/voice-engine-js/voice-engine-js-pixel-ring-apa102.git"
+  },
+  "keywords": [
+    "apa102",
+    "engine",
+    "pixel",
+    "ring",
+    "voice"
+  ],
+  "author": "Thomas Bergwinkl <bergi@axolotlfarm.org> (https://www.bergnet.org/people/bergi/card#me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voice-engine-js/voice-engine-js-pixel-ring-apa102/issues"
+  },
+  "homepage": "https://github.com/voice-engine-js/voice-engine-js-pixel-ring-apa102",
+  "dependencies": {
+    "@voice-engine/core": "git://github.com/voice-engine-js/voice-engine-js-core.git#master",
+    "bluebird": "^3.5.1",
+    "lodash": "^4.17.10",
+    "spi-device": "^2.0.2"
+  }
+}
